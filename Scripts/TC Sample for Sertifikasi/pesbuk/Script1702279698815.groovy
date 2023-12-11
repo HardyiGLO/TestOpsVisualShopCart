@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://id-id.facebook.com/')
+
+WebUI.click(findTestObject('Object Repository/FB/FB2/Page_Facebook - Masuk atau Daftar/a_Lupa kata sandi'))
+
+WebUI.setText(findTestObject('Object Repository/FB/FB2/Page_Lupa Kata Sandi  Tidak Dapat Masuk  Facebook/input_email'), 
+    '08182182812812')
+
+WebUI.click(findTestObject('Object Repository/FB/FB2/Page_Lupa Kata Sandi  Tidak Dapat Masuk  Facebook/a_Batal'))
+
+WebUI.closeBrowser()
+

@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication')
+
+WebUI.click(findTestObject('Object Repository/starbridges/Page_Login/a_Forgot Password'))
+
+WebUI.click(findTestObject('Object Repository/starbridges/Page_Forgot Passsword/button_Cancel'))
+
+WebUI.click(findTestObject('Object Repository/starbridges/Page_Login/button_Sign in'))
+
+WebUI.closeBrowser()
+
