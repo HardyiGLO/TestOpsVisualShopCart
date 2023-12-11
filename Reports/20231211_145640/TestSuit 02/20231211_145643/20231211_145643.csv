@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit 02,Chrome 119.0.0.0,,,11-12-2023 14:57:21,11-12-2023 14:57:40,18.412s,PASSED
+,,,,,,,
+Test Cases/TC Sample for Sertifikasi/Open ig,Chrome 119.0.0.0,,,11-12-2023 14:57:22,11-12-2023 14:57:40,17.241s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,11-12-2023 14:57:23,11-12-2023 14:57:31,7.622s,PASSED
+"navigateToUrl(""https://starbridges.indocyber.co.id/Application/Account/Login?ReturnUrl=%2fApplication"")",Chrome 119.0.0.0,,,11-12-2023 14:57:31,11-12-2023 14:57:32,1.401s,PASSED
+"click(findTestObject(""Object Repository/starbridges/Page_Login/a_Forgot Password""))",Chrome 119.0.0.0,,,11-12-2023 14:57:32,11-12-2023 14:57:36,3.967s,PASSED
+"click(findTestObject(""Object Repository/starbridges/Page_Forgot Passsword/button_Cancel""))",Chrome 119.0.0.0,,,11-12-2023 14:57:36,11-12-2023 14:57:37,1.338s,PASSED
+"click(findTestObject(""Object Repository/starbridges/Page_Login/button_Sign in""))",Chrome 119.0.0.0,,,11-12-2023 14:57:37,11-12-2023 14:57:39,1.768s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,11-12-2023 14:57:39,11-12-2023 14:57:40,0.536s,PASSED

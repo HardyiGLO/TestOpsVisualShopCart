@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit 01,Chrome 119.0.0.0,,,11-12-2023 14:59:38,11-12-2023 14:59:56,18.044s,PASSED
+,,,,,,,
+Test Cases/TC Sample for Sertifikasi/Open Wiki,Chrome 119.0.0.0,,,11-12-2023 14:59:40,11-12-2023 14:59:56,16.694s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,11-12-2023 14:59:40,11-12-2023 14:59:47,6.385s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 119.0.0.0,,,11-12-2023 14:59:47,11-12-2023 14:59:49,2.216s,PASSED
+"setText(findTestObject(""Object Repository/Open Wiki/Page_Wikipedia/input_search""), ""katalon"")",Chrome 119.0.0.0,,,11-12-2023 14:59:49,11-12-2023 14:59:51,2.357s,PASSED
+"click(findTestObject(""Object Repository/Open Wiki/Page_Wikipedia/i_Search""))",Chrome 119.0.0.0,,,11-12-2023 14:59:51,11-12-2023 14:59:55,3.781s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,11-12-2023 14:59:55,11-12-2023 14:59:56,1.390s,PASSED

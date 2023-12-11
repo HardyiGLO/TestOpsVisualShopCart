@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit 05,Chrome 119.0.0.0,,,11-12-2023 15:00:02,11-12-2023 15:00:11,9.261s,PASSED
+,,,,,,,
+Test Cases/TC Sample for Sertifikasi/Open Yutub,Chrome 119.0.0.0,,,11-12-2023 15:00:03,11-12-2023 15:00:11,8.054s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,11-12-2023 15:00:04,11-12-2023 15:00:11,7.171s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,11-12-2023 15:00:11,11-12-2023 15:00:11,0.451s,PASSED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/FB/FB2/Page_Facebook - Masuk atau Daftar/a_Lupa kata sandi",
+      "brokenLocator": "//form[@id\u003d\u0027u_0_2_WC\u0027]/div[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Lupa kata sandi?\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231211_150012/TestSuit 06/20231211_150012/Object Repository/FB/FB2/Page_Facebook - Masuk atau Daftar/a_Lupa kata sandi_link.png"
+    }
+  ]
+}

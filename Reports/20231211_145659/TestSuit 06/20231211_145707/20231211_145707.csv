@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuit 06,Chrome 119.0.0.0,,,11-12-2023 14:57:57,11-12-2023 14:58:40,43.064s,PASSED
+,,,,,,,
+Test Cases/TC Sample for Sertifikasi/pesbuk,Chrome 119.0.0.0,,,11-12-2023 14:57:58,11-12-2023 14:58:40,42.201s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,11-12-2023 14:57:58,11-12-2023 14:58:02,3.774s,PASSED
+"navigateToUrl(""https://id-id.facebook.com/"")",Chrome 119.0.0.0,,,11-12-2023 14:58:02,11-12-2023 14:58:05,2.675s,PASSED
+"click(findTestObject(""Object Repository/FB/FB2/Page_Facebook - Masuk atau Daftar/a_Lupa kata sandi""))",Chrome 119.0.0.0,,,11-12-2023 14:58:05,11-12-2023 14:58:38,33.563s,PASSED
+"setText(findTestObject(""Object Repository/FB/FB2/Page_Lupa Kata Sandi  Tidak Dapat Masuk  Facebook/input_email""), ""08182182812812"")",Chrome 119.0.0.0,,,11-12-2023 14:58:38,11-12-2023 14:58:39,0.927s,PASSED
+"click(findTestObject(""Object Repository/FB/FB2/Page_Lupa Kata Sandi  Tidak Dapat Masuk  Facebook/a_Batal""))",Chrome 119.0.0.0,,,11-12-2023 14:58:39,11-12-2023 14:58:40,0.904s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,11-12-2023 14:58:40,11-12-2023 14:58:40,0.175s,PASSED
