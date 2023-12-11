@@ -49,7 +49,12 @@ def static "sample.Login.logoutFromApplication"() {
     (new sample.Login()).logoutFromApplication()
 }
 
-
+ /**
+	 * Select an option by label.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @param option The label of the option needs to select.
+	 */ 
 def static "sample.Select2.selectOptionByLabel"(
     	TestObject to	
      , 	String option	) {
@@ -58,7 +63,12 @@ def static "sample.Select2.selectOptionByLabel"(
          , 	option)
 }
 
-
+ /**
+	 * Select many options by labels. This method just applies for multiple value select boxes.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @param options The labels of the options need to select.
+	 */ 
 def static "sample.Select2.selectManyOptionsByLabel"(
     	TestObject to	
      , 	java.util.List<String> options	) {
@@ -67,28 +77,48 @@ def static "sample.Select2.selectManyOptionsByLabel"(
          , 	options)
 }
 
-
+ /**
+	 * Get labels of selected options.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @return A labels list of selected options.
+	 */ 
 def static "sample.Select2.getSelectedOptionsLabel"(
     	TestObject to	) {
     (new sample.Select2()).getSelectedOptionsLabel(
         	to)
 }
 
-
+ /**
+	 * Get elements of selected options.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @return A list WebElement of selected options.
+	 */ 
 def static "sample.Select2.getSelectedOptionsList"(
     	TestObject to	) {
     (new sample.Select2()).getSelectedOptionsList(
         	to)
 }
 
-
+ /**
+	 * Get labels of all options.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @return A list string of all options.
+	 */ 
 def static "sample.Select2.getAllOptionsLabel"(
     	TestObject to	) {
     (new sample.Select2()).getAllOptionsLabel(
         	to)
 }
 
-
+ /**
+	 * Remove selected options. This method just applies for multiple value select boxes.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @param options The list of options needs to remove.
+	 */ 
 def static "sample.Select2.removeOptions"(
     	TestObject to	
      , 	java.util.List<String> options	) {
@@ -162,21 +192,35 @@ def static "sample.Checkout.CheckoutShopWithGlobalVariable"() {
     (new sample.Checkout()).CheckoutShopWithGlobalVariable()
 }
 
-
+ /**
+	 * Click on select2 text box.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 */ 
 def static "sample.Utils.clickOnSelect2"(
     	TestObject to	) {
     (new sample.Utils()).clickOnSelect2(
         	to)
 }
 
-
+ /**
+	 * Find the container class after the select element.
+	 *
+	 * @param to The select2 box object that tagged as "select" in the document.
+	 * @return The WebElement that seen as container class after the select element.
+	 */ 
 def static "sample.Utils.findContainer"(
     	TestObject to	) {
     (new sample.Utils()).findContainer(
         	to)
 }
 
-
+ /**
+	 * Select the result after filling text search to select2 text box.
+	 *
+	 * @param option The label of option need to select.
+	 * @param subContainerOpenClass The Xpath string of the container class.
+	 */ 
 def static "sample.Utils.selectResult"(
     	String option	
      , 	String subContainerOpenClass	) {
@@ -185,7 +229,12 @@ def static "sample.Utils.selectResult"(
          , 	subContainerOpenClass)
 }
 
-
+ /**
+	 * Enter text search to the select2 text box.
+	 *
+	 * @param option The label of option need to search.
+	 * @return The Xpath string of the container class.
+	 */ 
 def static "sample.Utils.enterText"(
     	String option	) {
     (new sample.Utils()).enterText(
